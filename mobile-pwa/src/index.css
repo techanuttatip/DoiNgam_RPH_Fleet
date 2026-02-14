@@ -1,0 +1,20 @@
+/* admin-dashboard/src/index.css */
+@import "tailwindcss";
+
+/* Custom Theme Colors from PDF [cite: 7] */
+@theme {
+  --color-primary: #2E7D32;
+  --color-primary-hover: #1B5E20;
+  --color-secondary: #1976D2;
+  --color-accent: #F57C00;
+  --color-neutral: #757575;
+  --color-bg-light: #F5F5F5;
+  --color-error: #D32F2F;
+  --color-success: #388E3C;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--color-bg-light);
+  font-family: 'SF Pro Display', system-ui, sans-serif; /* [cite: 9] */
+}
