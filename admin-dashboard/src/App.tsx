@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import Users from './pages/Users'; 
 import Vehicles from './pages/Vehicles';
 import Events from './pages/Events';
+import Logs from './pages/Logs';
 
 // Placeholder Pages (หน้าอื่นๆ ที่รอการพัฒนาใน Step ถัดไป)
 function App() {
@@ -24,7 +25,7 @@ function App() {
             
             {/* หน้าอื่นๆ ใช้ Placeholder ไปก่อน */}
             <Route path="/events" element={<Events />} />
-            <Route path="/logs" element={<div className="p-6">ประวัติและรายงาน (Logs)</div>} />
+            <Route path="/logs" element={<Logs />} />
             <Route path="/settings" element={<div className="p-6">ตั้งค่าระบบ (Settings)</div>} />
           </Route>
         </Routes>
